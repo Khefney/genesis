@@ -1,0 +1,107 @@
+[
+  {
+    "id": "act-01",
+    "projectId": "orbit-cli",
+    "type": "commit",
+    "message": "Add module scaffold presets for workspace runners",
+    "timestamp": "2026-09-24T21:14:00Z"
+  },
+  {
+    "id": "act-02",
+    "projectId": "atlas-api",
+    "type": "pr",
+    "message": "Open PR for transit edge cache invalidation",
+    "timestamp": "2026-09-24T18:42:00Z"
+  },
+  {
+    "id": "act-03",
+    "projectId": "nova-dashboard",
+    "type": "review",
+    "message": "Review alert policy editor interaction states",
+    "timestamp": "2026-09-24T16:05:00Z"
+  },
+  {
+    "id": "act-04",
+    "projectId": "atlas-api",
+    "type": "commit",
+    "message": "Tighten route graph serialization for night feeds",
+    "timestamp": "2026-09-23T22:31:00Z"
+  },
+  {
+    "id": "act-05",
+    "projectId": "orbit-cli",
+    "type": "docs",
+    "message": "Document local runner command matrix",
+    "timestamp": "2026-09-23T19:12:00Z"
+  },
+  {
+    "id": "act-06",
+    "projectId": "nova-dashboard",
+    "type": "commit",
+    "message": "Ship fleet sensor sparkline panel",
+    "timestamp": "2026-09-23T14:48:00Z"
+  },
+  {
+    "id": "act-07",
+    "projectId": "prism-analytics",
+    "type": "refactor",
+    "message": "Isolate experiment batch window helpers",
+    "timestamp": "2026-09-22T20:06:00Z"
+  },
+  {
+    "id": "act-08",
+    "projectId": "atlas-api",
+    "type": "deploy",
+    "message": "Deploy staging revision of telemetry ingest",
+    "timestamp": "2026-09-22T15:33:00Z"
+  },
+  {
+    "id": "act-09",
+    "projectId": "orbit-cli",
+    "type": "commit",
+    "message": "Fix template path resolution on nested modules",
+    "timestamp": "2026-09-21T23:01:00Z"
+  },
+  {
+    "id": "act-10",
+    "projectId": "nova-dashboard",
+    "type": "pr",
+    "message": "Open PR for quiet-hours mute defaults",
+    "timestamp": "2026-09-21T17:27:00Z"
+  },
+  {
+    "id": "act-11",
+    "projectId": "atlas-api",
+    "type": "review",
+    "message": "Approve pagination contract for stop lookups",
+    "timestamp": "2026-09-20T21:55:00Z"
+  },
+  {
+    "id": "act-12",
+    "projectId": "prism-analytics",
+    "type": "commit",
+    "message": "Backfill sample experiment dimensions",
+    "timestamp": "2026-09-20T13:40:00Z"
+  },
+  {
+    "id": "act-13",
+    "projectId": "orbit-cli",
+    "type": "commit",
+    "message": "Improve doctor command diagnostics output",
+    "timestamp": "2026-09-19T22:18:00Z"
+  },
+  {
+    "id": "act-14",
+    "projectId": "nova-dashboard",
+    "type": "docs",
+    "message": "Clarify sensor status legend copy",
+    "timestamp": "2026-09-19T16:02:00Z"
+  },
+  {
+    "id": "act-15",
+    "projectId": "atlas-api",
+    "type": "commit",
+    "message": "Reduce cold-start latency on graph hydrate",
+    "timestamp": "2026-09-18T20:44:00Z"
+  }
+]
