@@ -1,0 +1,42 @@
+[
+  {
+    "id": "atlas-api",
+    "name": "Atlas API",
+    "description": "Graph-aware service layer for fictional city transit telemetry and routing.",
+    "category": "Backend",
+    "status": "active",
+    "progress": 72,
+    "createdAt": "2026-07-12",
+    "updatedAt": "2026-09-24"
+  },
+  {
+    "id": "nova-dashboard",
+    "name": "Nova Dashboard",
+    "description": "Operations console for monitoring fictional fleet sensors and alert policies.",
+    "category": "Frontend",
+    "status": "active",
+    "progress": 58,
+    "createdAt": "2026-08-03",
+    "updatedAt": "2026-09-23"
+  },
+  {
+    "id": "orbit-cli",
+    "name": "Orbit CLI",
+    "description": "Developer toolkit for scaffolding fictional workspace modules and local runners.",
+    "category": "Developer Tools",
+    "status": "active",
+    "progress": 84,
+    "createdAt": "2026-06-21",
+    "updatedAt": "2026-09-24"
+  },
+  {
+    "id": "prism-analytics",
+    "name": "Prism Analytics",
+    "description": "Batch and streaming metrics pipeline for fictional product usage experiments.",
+    "category": "Data",
+    "status": "paused",
+    "progress": 41,
+    "createdAt": "2026-05-18",
+    "updatedAt": "2026-09-10"
+  }
+]

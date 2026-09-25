@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Outfit', ui-sans-serif, sans-serif;
+  --font-sans: 'Outfit', ui-sans-serif, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --color-ink: #e7eef7;
+  --color-muted: #8fa0b5;
+  --color-panel: #121820;
+  --color-edge: #243040;
+  --color-accent: #2dd4bf;
+  --color-canvas: #0a0e13;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    font-family: var(--font-sans);
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  code {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.app-shell {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(45, 212, 191, 0.12), transparent 55%),
+    radial-gradient(900px 500px at 90% 0%, rgba(56, 125, 180, 0.14), transparent 50%),
+    linear-gradient(180deg, #0c1219 0%, #0a0e13 45%, #080b10 100%);
+}
+
+.fade-up,
+.stat-card,
+.project-card {
+  animation: fadeUp 0.55s ease both;
+}
+
+.chart-bar {
+  animation: growBar 0.7s ease both;
+  transform-origin: bottom;
+}
+
+.progress-bar {
+  animation: growWidth 0.85s ease both;
+}
+
+.pulse-mark {
+  animation: softPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes growBar {
+  from {
+    transform: scaleY(0.15);
+    opacity: 0.4;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
+
+@keyframes growWidth {
+  from {
+    width: 0% !important;
+  }
+}
+
+@keyframes softPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(45, 212, 191, 0.18);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(45, 212, 191, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up,
+  .stat-card,
+  .project-card,
+  .chart-bar,
+  .progress-bar,
+  .pulse-mark {
+    animation: none !important;
+  }
+}
